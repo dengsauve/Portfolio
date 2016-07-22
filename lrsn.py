@@ -44,8 +44,7 @@ epoch = time.mktime(now.timetuple())
 descript = """This is the Lab Reservation System Navigator, a.k.a. Larson.
 Use it to find whatever you need in an efficient text based format. This is a
 passive program, meaning that there is no insertion to the MySQL Database. For
-further information regarding this program, contact either Dennis Sauve or Brent
-Barr.\n"""+vr
+further information regarding this program, contact either Dennis Sauve or [Redacted].\n"""+vr
 
 howto = """lrsn.py [options[args]] <---Which are optional. """
 
@@ -70,15 +69,15 @@ def main():
     Created by: Dennis Sauve""") % vr
 
     try:
-        conn = MySQLdb.connect (host = "192.168.64.123", user = "mysqlrw", passwd = "F5networks", db = "lrs")
+        conn = MySQLdb.connect (host = "[Redacted]", user = "[Redacted]", passwd = "[Redacted]", db = "[Redacted]")
         cursor = conn.cursor ()
     except:
-        fail("could not connect to the LRS database.")
+        fail("could not connect to the [Redacted] database.")
 
     if opts.quiet:
         pass
     else:
-        print("\nConnection to LRS Database Established.")
+        print("\nConnection to [Redacted] Database Established.")
 
     if opts.reservations:
         current_reservations_menu(cursor)
