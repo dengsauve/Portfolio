@@ -1,0 +1,10 @@
+article{
+    height: 275px;
+    transition-duration: .3s;
+}
+
+article:hover{
+    padding-left: 20px;
+    transition-duration: .3s;
+    background-color: azure;
+}
