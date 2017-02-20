@@ -1,0 +1,21 @@
+1. Mobile looks meh
+2. Menus are not z-indexed right on desktop
+3. Page is **very** static.
+	No CSS response on hovers
+4. So dark. So, so dark.
+5. Misaligned Edges. For the love of god, why?
+6. Site is too big on laptop, no reason that information can't all show on laptop and larger
+7. One of the fade images has square corners, the rest are rounded! wft, who's managing this site?
+
+Plan of Attack:
+1. As always, Mobile First
+2. mobile/tablet will be roughly the same. Going for an 'app' feel on mobile
+3. laptop/desktop, no difference. Going Lighter while maintaining green color
+
+Mobile Order:
+1. Navbar - Fixed - Icon w/exand
+2. Menu - LgIcon
+3. Specials
+4. Order Now - lgIcon
+5. Locations - lgIcon
+6. About Us

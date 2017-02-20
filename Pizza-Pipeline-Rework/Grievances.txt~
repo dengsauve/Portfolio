@@ -1,0 +1,10 @@
+1. Mobile looks meh
+2. Menus are not z-indexed right on desktop
+3. Page is **very** static.
+	No CSS response on hovers
+4. So dark. So, so dark.
+5. Misaligned Edges. For the love of god, why?
+6. Site is too big on laptop, no reason that information can't all show on laptop and larger
+
+Plan of Attack:
+1. As always, Mobile First

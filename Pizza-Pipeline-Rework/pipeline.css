@@ -1,0 +1,114 @@
+/*
+    Body Tags
+*/
+
+body{
+    padding-top: 60px; /* Padding for Fixed Navbar */
+        background-color: white;
+}
+
+.no-padding{
+    padding: 0px;
+}
+/*
+    End Body Tags
+
+
+####################
+
+
+    Header Tags
+*/
+
+a.navbar-brand{
+    padding: 5px;
+}
+
+a.navbar-brand img{
+    height: 100%;
+}
+
+div.navbar-header{
+    background-color: #555555;
+    color: inherit;
+}
+
+div.navbar-collapse{
+    background-color: white;
+    color: inherit;
+}
+
+#myNavbar li.active a{
+    background-color: #008A5E;
+    color: #ffffff;
+}
+
+/*
+    End Header Tags
+
+####################
+
+    Main Tags
+*/
+
+main{
+    padding: 0px 8px 0px 8px !important;
+}
+
+aside.site-actions{
+
+}
+
+button.btn-order{
+    background-color: rgba(0,138,94, 1.0);
+    color: whitesmoke;
+    border-radius: 2px;
+    width: 100%;
+    margin: 0px;
+}
+
+h4{
+    color: rgba(0,138,94, 1.0);
+    font-weight: 600;
+}
+
+section.daily-specials{
+    background-color: rgba(0,138,94, 1.0);
+    color: white;
+    margin: 15px auto 15px auto;
+    border-radius: 2px;
+}
+
+section.daily-specials h2{
+    color: white;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+table.daily-specials tbody tr td:last-child{
+    text-align: right;
+}
+
+table.daily-specials thead tr th:last-child{
+    text-align: right;
+}
+
+btn-long{
+    width: 100%;
+}
+
+/*
+    End Main Tags
+
+####################
+
+    Footer Tags
+*/
+
+
+/*
+    End Footer Tags
+*/
