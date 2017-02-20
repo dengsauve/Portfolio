@@ -59,12 +59,13 @@ aside.site-actions{
 
 }
 
-button.btn-order{
+a.btn-order{
     background-color: rgba(0,138,94, 1.0);
-    color: whitesmoke;
+    color: white;
     border-radius: 2px;
     width: 100%;
     margin: 0px;
+    box-shadow: 2px 2px 5px black;
 }
 
 h4{
@@ -94,10 +95,6 @@ table.daily-specials tbody tr td:last-child{
 
 table.daily-specials thead tr th:last-child{
     text-align: right;
-}
-
-btn-long{
-    width: 100%;
 }
 
 /*
