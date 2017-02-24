@@ -1,0 +1,10 @@
+html, body{
+    margin: 0px;
+    color: black;
+    background-color: lightgray;
+    font: sans-serif;
+}
+
+body{
+    padding: 20px;
+}
